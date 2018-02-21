@@ -36,8 +36,7 @@ public class Main {
 
 	    // Use a while loop.
 	    while ( counter <= userVar ) {
-		    result = result + counter;
-		    counter++;
+		    result += counter++;
 	    }
 
 	    // Print out the result.
@@ -48,8 +47,9 @@ public class Main {
 	     */
 	    result = 0;
 
+	    // Run the for loop.
 	    for ( counter = 1; counter <= userVar; counter++ ) {
-			result = result + counter;
+			result += counter;
 	    }
 
 	    // Print out the result.
@@ -63,8 +63,7 @@ public class Main {
 
 	    // Do the do-while loop.
 	    do {
-		    result = result + counter;
-		    counter++;
+		    result += counter++;
 	    } while ( counter <= userVar );
 
 	    // Print out the result.
